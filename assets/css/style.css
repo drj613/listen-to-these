@@ -14,6 +14,10 @@ html, body {
     background: linear-gradient(rgb(163,85,41), rgb(49,97,103));
 }
 
+#hero:hover{
+    cursor: pointer;
+}
+
 #hero > #heroText {
     margin-top: -5vh;
     width: 50%;
@@ -61,6 +65,7 @@ h2 {
     grid-template-rows: 1fr;
     grid-template-columns: 0.5fr 1fr 3fr 1fr 1fr 1fr;
     text-align: center;
+    background: rgb(255, 255, 255, .3);
 }
 
 #navbar > #logoGridI {
